@@ -1,0 +1,39 @@
+.card{
+    width: 380px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.card p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.1);
+    padding: 1vw;
+    line-height: 25px;
+    border-radius: 10px;
+}
+
+.prof{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.prof img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.prof h1{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.prof h3{
+    font-size: 13px;
+    font-weight: 300;
+}

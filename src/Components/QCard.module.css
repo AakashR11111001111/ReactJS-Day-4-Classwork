@@ -1,0 +1,41 @@
+.card{
+    width:90%;
+    margin: 50px auto;
+    background: #202938;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw 4vw;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 2px black;
+    transition: all 0.3s ease;
+}
+
+::selection{
+    background: white;
+    color: #202938;
+}   
+
+.card:hover{
+    box-shadow: 0 0 20px 2px black;
+}
+
+.card h4, .card p{
+    text-align: center;
+}
+
+.card h4{
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.card p{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 10px;
+}
+

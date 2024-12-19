@@ -1,0 +1,91 @@
+.nav{
+    height: 70px;
+    display: flex;
+    padding: 0 2vw;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    align-items: center;
+    background-color: #111828ee;
+    backdrop-filter: blur(10px);
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav h1{
+    font-family: "roboto";
+    font-weight: 100;
+    color: white;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2vw;
+    color: white;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    transition: all 0.3s ease;
+}
+
+.nav ul li a:hover{
+    color: #6896f8;
+}
+
+.btn:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns img{
+    display: none;
+}
+
+.gsbtn{
+    padding: .4vw 1.5vw;
+    background: #2563ea;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.gsbtn:hover{
+    background: #15409c;
+}
+
+@media screen and (max-width: 700px) {
+    .nav ul{
+        display: none;
+    }
+    .btns button{
+        display: none;
+    }
+    .btns img{
+        display: block;
+        transition: all 0.2s ease;
+        height: 35px;
+    }
+
+    .btns img:hover{
+        cursor: pointer;
+    }
+
+    .btns img:active{
+        transform: scale(1.1);
+    }
+}
