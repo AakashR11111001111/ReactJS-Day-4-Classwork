@@ -1,5 +1,5 @@
-import Home from './Home';
-import Quote from './Quote';
+import Home from './Components/Home';
+import Quote from './Components/Quote';
 function App() {
   return (
     <>
