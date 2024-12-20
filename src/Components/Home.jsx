@@ -1,6 +1,6 @@
 import Page2 from './Page2';
 import Footer from './Footer';
-import Nav from './Nav';
+import Nav from './Nav.jsx';
 import P1 from './page1'
 import Hero from './Hero';
 const Home = ()=>{
