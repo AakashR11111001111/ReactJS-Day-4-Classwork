@@ -1,5 +1,5 @@
 import styles from './nav.module.css'
-const Nav = () => {
+const NavBar = () => {
     function vibrate(){
         navigator.vibrate(50);
     }
@@ -24,4 +24,4 @@ const Nav = () => {
     )
 }
 
-export default Nav;
+export default NavBar;

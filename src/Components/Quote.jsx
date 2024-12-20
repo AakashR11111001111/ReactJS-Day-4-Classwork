@@ -1,13 +1,12 @@
-import Nav from './Nav.jsx'
 import Footer from './Footer'
+import NavBar from './NavBar';
 import QuoteContainer from './QuoteContainer'
 function Quote(){
     return (
         <>
-            <Nav />
+            <NavBar />
                 <QuoteContainer />
             <Footer />
-
         </>
     );
 }
