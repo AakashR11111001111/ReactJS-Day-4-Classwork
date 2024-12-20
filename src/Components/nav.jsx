@@ -1,11 +1,10 @@
 import React from 'react';
-import styles from './Nav1.module.css'
+import styles from './nav.module.css'
 function Nav() {
     function vibrate(){
         navigator.vibrate(50);
     }
-
-
+    
     return (
         <div className={styles.nav}> 
             <h1>Foodiees</h1>

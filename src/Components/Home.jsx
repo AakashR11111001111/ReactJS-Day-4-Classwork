@@ -1,5 +1,4 @@
-import Nav from "./Nav.jsx";
-// import Hero from './Hero';
+import Nav from "./Nav";
 import Hero from "./Hero"
 import P1 from './page1';
 import Page2 from './Page2';

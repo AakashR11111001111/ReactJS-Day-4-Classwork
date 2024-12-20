@@ -22,9 +22,7 @@ function QuoteContainer(){
                 <QCard dummy="The only time to eat diet food is while you're waiting for the steak to cook." writer="Julia Child" />
                 <QCard dummy="I cook with wine, sometimes I even add it to the food." writer="W.C. Fields" />
                 <QCard dummy="Eating is always a decision, nobody forces your hand to pick up food and put it into your mouth." writer="Alice May Brock" />
-                <QCard dummy='Fat is a barrier, a bellicose statement to others that, to some, justifies hostility in kind. The world says to the
-                fat person, "Your fat
-                ness is an affront to me, so we have the right to treat you as offensively as you appear." Fat is not merely viewed as another type of tissue, but as a diagnostic sign, a personal statement, and a measure of personality. Too little fat and we see you as being antisocial, fearful and sexless. Too much fat and we see you as slothful, stupid, and sexually hung up.' writer="Anthelme Brillat-Savarin" />
+                <QCard dummy='Fat is a barrier, a bellicose statement to others that, to some, justifies hostility in kind. The world says to the fat person, "Your fat ness is an affront to me, so we have the right to treat you as offensively as you appear." Fat is not merely viewed as another type of tissue, but as a diagnostic sign, a personal statement, and a measure of personality. Too little fat and we see you as being antisocial, fearful and sexless. Too much fat and we see you as slothful, stupid, and sexually hung up.' writer="Anthelme Brillat-Savarin" />
                 
             </div>
         </>

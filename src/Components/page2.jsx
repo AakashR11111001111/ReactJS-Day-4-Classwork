@@ -15,7 +15,6 @@ function Page2(){
                     <Card cont="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, cum." />
                     <Card cont="Lorem ipsum dolor sit amet consectetur adipisicing elit." />
                 </div>
-            {/* <Card /> */}
             </div>
 
         </>
