@@ -1,4 +1,4 @@
-import Nav from './nav'
+import Nav from './Nav'
 import Footer from './Footer'
 import QuoteContainer from './QuoteContainer';
 function Quote(){
