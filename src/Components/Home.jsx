@@ -1,4 +1,4 @@
-import Nav from './Nav'
+import Nav from "./Nav";
 // import Hero from './Hero';
 import Hero from "./Hero"
 import P1 from './page1';

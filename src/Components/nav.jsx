@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Nav.module.css'
+import styles from './Nav1.module.css'
 function Nav() {
     function vibrate(){
         navigator.vibrate(50);
