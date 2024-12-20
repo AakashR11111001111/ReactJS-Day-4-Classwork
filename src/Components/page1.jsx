@@ -1,4 +1,3 @@
-import React from "react";
 import styles from './page1.module.css';
 function P1(){
     return (

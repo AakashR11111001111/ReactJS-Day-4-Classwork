@@ -1,6 +1,5 @@
-import React from 'react';
 import styles from './nav.module.css'
-function Nav() {
+const Nav = () => {
     function vibrate(){
         navigator.vibrate(50);
     }
